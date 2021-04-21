@@ -1,0 +1,43 @@
+.main {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.main .fields {
+    margin: 10% 25%;
+    padding: 35px 45px;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+}
+
+.main .fields .field {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+    justify-content: center;
+}
+
+.field label {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.field input {
+    padding: 7px 5px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+}
+
+.main .logo {
+    margin: 0 33%;
+    height: 150px;
+}
+
+.main .buttons button {
+    margin: 10px 0;
+    padding: 8px 0;
+    border: 2px solid rgba(211, 211, 211, 0.842);
+    border-radius: 5px;
+    color: red;
+    font-weight: 600;
+}
