@@ -53,9 +53,9 @@ class Login extends Component {
 
   responseGoogle = async (e) => {
     
-    await this.props.register(e.profileObj.familyName, e.googleId, e.profileObj.email,e.profileObj.familyName, "5340203593","m");
+   /* await this.props.register(e.profileObj.familyName, e.googleId, e.profileObj.email,e.profileObj.familyName, "5340203593","m");
     await this.props.login(e.profileObj.familyName, e.googleId);
-    window.location.href = "/";
+    window.location.href = "/";*/
     
   }
 
@@ -95,7 +95,7 @@ class Login extends Component {
 <div style={{display: "inline-block"}}>
          {/* Eklendi baslangic*/}
         <FacebookLogin
-          appId="3725536324209409"
+          appId="809800666344753"
           fields="name,email,picture"
           callback={this.responseFacebook}
         />
